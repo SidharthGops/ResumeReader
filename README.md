@@ -2,13 +2,11 @@
 
 An AI-powered resume analyzer that compares your resume against any job description and returns a match score, matched skills, and skill gaps — instantly.
 
-![ResumeReader Screenshot](./screenshots/upload.png)
+![ResumeReader Screenshot](./screenshots/upload1.png)
 
 ---
 
-## Live Demo
-
-> 🔗 Coming soon — deploying to AWS EC2
+### > 🔗 **Live Demo:** http://54.173.200.60
 
 ---
 
