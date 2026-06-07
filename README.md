@@ -1,4 +1,4 @@
-# ResumeReader 🎯
+# ResumeReader
 
 An AI-powered resume analyzer that compares your resume against any job description and returns a match score, matched skills, and skill gaps — instantly.
 
@@ -222,7 +222,6 @@ PORT=5001
 BTech CSE — Rajagiri College of Engineering and Technology
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sidharthgopan)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SidharthGops?tab=repositories)
 
 ---
 
