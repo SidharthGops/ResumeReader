@@ -219,7 +219,7 @@ PORT=5001
 ## Author
 
 **Sidharth Gopan**
-BTech CSE — Rajagiri College of Engineering and Technology
+BTech CSE — Rajagiri School of Engineering and Technology
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sidharthgopan)
 
