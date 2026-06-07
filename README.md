@@ -52,20 +52,20 @@ An AI-powered resume analyzer that compares your resume against any job descript
 
 ```
 ┌─────────────────┐         ┌─────────────────────────────────────┐
-│                 │  HTTPS  │           Express Backend            │
-│  React Frontend │ ──────► │  /api/auth  →  authController        │
-│  (Vite + nginx) │         │  /api/resumes → resumeController     │
-│                 │         │       │              │               │
-└─────────────────┘         │   authMiddleware   pdfParser         │
-                            │       │              │               │
-                            │   JWT verify    aiOrchestrator       │
+│                 │  HTTPS  │           Express Backend           │
+│  React Frontend │ ──────► │  /api/auth  →  authController       │
+│  (Vite + nginx) │         │  /api/resumes → resumeController    │
+│                 │         │       │              │              │
+└─────────────────┘         │   authMiddleware   pdfParser        │
+                            │       │              │              │
+                            │   JWT verify    aiOrchestrator      │
                             │                     │               │
                             └─────────────────────┼───────────────┘
                                                   │
                                     ┌─────────────┼─────────────┐
                                     │             │             │
-                               MongoDB        Groq API      AWS S3
-                              (Atlas)      (Llama 3.3)    (future)
+                                 MongoDB      Groq API        AWS S3
+                                 (Atlas)     (Llama 3.3)      (EC2)
 ```
 
 ---
