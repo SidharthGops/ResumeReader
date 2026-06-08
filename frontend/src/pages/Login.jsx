@@ -61,7 +61,7 @@ export default function Login() {
                             <FileScan className="h-6 w-6 text-white" />
                         </div>
                         <h1 className="text-2xl font-bold text-base-content tracking-tight">
-                            ResumeRadar
+                            ResumeReader
                         </h1>
                     </div>
                     <p className="mt-3 text-sm text-base-content/60">
