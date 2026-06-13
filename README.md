@@ -6,7 +6,7 @@ An AI-powered resume analyzer that compares your resume against any job descript
 
 ---
 
-### > 🔗 **Live Demo:** http://54.173.200.60
+### > 🔗 **Live Demo:** http://54.173.200.60/login
 
 ---
 
