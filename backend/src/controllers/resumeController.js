@@ -50,8 +50,10 @@ export async function analyze(req, res) {
             gaps: newAnalysis.gaps
         });
     } catch (e) {
-        console.error(e);
-        res.json({ message: "Error doing analysis", error: e });
+    console.error("Resume analysis failed:", e);
+
+    res.status(500).json({
+        message: e.message || "Error doing analysis"});
     }
 }
 
